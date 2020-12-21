@@ -9,6 +9,7 @@ namespace OnionIdentity.Web
     {
         public void Configuration(IAppBuilder app)
         {
+            //important
             ConfigureAutofac(app);
             ConfigureAuth(app);
         }
